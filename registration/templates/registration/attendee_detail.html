@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load bootstrap4 %}
+
+{% block content %}
+    <h3>Successfully registered!!</h3>
+    <div class="row">
+        <div class="col-sm"><strong>Name:</strong></div>
+        <div class="col-sm">{{ object.name }}</div>
+    </div>
+    <div class="row">
+        <div class="col-sm"><strong>Dietary Restriction:</strong></div>
+        <div class="col-sm">{{ object.dietary_restriction }}</div>
+    </div>    
+{% endblock %}
