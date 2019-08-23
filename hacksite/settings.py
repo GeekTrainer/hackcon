@@ -28,7 +28,7 @@ SECRET_KEY = '_p$cf((nj8j)t7hxw9a2d5syh%355rcr@o^9p@9lxt@8*bm#u1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hackcontest.azurewebsites.net']
 
 
 # Application definition
